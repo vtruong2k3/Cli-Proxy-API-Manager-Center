@@ -42,6 +42,7 @@ const getBrowserLanguage = (): Language => {
   const lower = raw.toLowerCase();
   if (lower.startsWith('zh')) return 'zh-CN';
   if (lower.startsWith('ru')) return 'ru';
+  if (lower.startsWith('vi')) return 'vi';
   return 'en';
 };
 

@@ -1470,7 +1470,8 @@
     "switch": "Language",
     "chinese": "中文",
     "english": "English",
-    "russian": "Русский"
+    "russian": "Русский",
+    "vietnamese": "Vietnamese"
   },
   "theme": {
     "switch": "Theme",
