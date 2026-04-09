@@ -27,8 +27,11 @@
   justify-content: space-between;
   gap: $spacing-md;
   padding: $spacing-md $spacing-lg;
-  background: var(--bg-primary);
-  border-bottom: 1px solid var(--border-color);
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-backdrop-filter);
+  -webkit-backdrop-filter: var(--glass-backdrop-filter);
+  border-bottom: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-sm);
   position: sticky;
   top: 0;
   z-index: 10;
@@ -474,8 +477,8 @@
   flex-direction: column;
   gap: $spacing-lg;
   transition:
-    width $transition-normal,
-    transform $transition-normal;
+    width $transition-bounce,
+    transform $transition-bounce;
   overflow-y: auto;
   flex-shrink: 0;
   height: 100%;
